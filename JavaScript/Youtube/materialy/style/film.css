@@ -1,0 +1,74 @@
+.ogolnyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+
+@media (max-width: 800px) {
+    .ogolnyGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1199px) {
+    .ogolnyGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ogolnyGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.pojemnikIkona {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.ikona {
+    width: 100%;
+}
+
+.filmCzas {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.filmGrid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profilZdjecie {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.tytulFilmu {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.autorFilmu,
+.statystykiFilmu {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.autorFilmu {
+    margin-bottom: 4px;
+}

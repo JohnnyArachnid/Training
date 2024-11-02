@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 72px;
+    background-color: white;
+}
+
+.sidebarIkonka {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarIkonka img {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebarIkonka div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 500;
+}
